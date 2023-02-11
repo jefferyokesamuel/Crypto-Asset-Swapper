@@ -29,6 +29,8 @@ function  closeModal() {
     document.getElementById("token_modal").style.display = "none";
 }
     console.log("Initializing")
+    let response = await fetch("https://tokens.coingecko.com/uniswap/all.json")
+    let tokenList = response.json()
 }
 
 document.getElementById("from_token_select").onclick = openModal;
