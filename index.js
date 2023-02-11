@@ -26,5 +26,7 @@ function openModal() {
 }
     document.getElementById("token_modal").style.display = "none";
 }
+    console.log("Initializing")
 }
 
+document.getElementById("from_token_select").onclick = openModal;
