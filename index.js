@@ -38,3 +38,4 @@ document.getElementById("login_button").onclick = connect;
 document.getElementById("from_token_select").onclick = openModal;
     console.log("initializing");
     let response = await fetch('https://tokens.coingecko.com/uniswap/all.json');
+    console.log("tokens:", tokens);
