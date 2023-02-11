@@ -6,7 +6,8 @@ async function connect() {
         } catch (err) {
             console.log(err)
         }
-        
+        // Change the button when connected
+        document.getElementById("login_button").innerHTML = "Connected"
         // If Connedted, enable swap button
     }
         else { 
