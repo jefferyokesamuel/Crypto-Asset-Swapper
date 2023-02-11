@@ -33,4 +33,6 @@ function  closeModal() {
     let tokenList = response.json()
 }
 
+init()
+document.getElementById("login_button").onclick = connect;
 document.getElementById("from_token_select").onclick = openModal;
