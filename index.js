@@ -48,6 +48,12 @@ async function listAvailableTokens(){
     console.log("listing available tokens: ", tokenListJSON);
     tokens = tokenListJSON.tokens
     console.log("tokens:", tokens);
+  
+    let parent = document.getElementById("token_list");
+
+    for (const i in tokens){
+ 
+      let div = document.createElement("div");
       div.className = "token_row";
       let html = `
       div.innerHTML = html;
