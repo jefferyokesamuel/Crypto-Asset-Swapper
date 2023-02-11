@@ -24,5 +24,7 @@ function openModal() {
     document.getElementById("token_modal").style.display = "block"
 }    document.getElementById("token_modal").style.display = "none";
 }
+    document.getElementById("token_modal").style.display = "none";
+}
 }
 
