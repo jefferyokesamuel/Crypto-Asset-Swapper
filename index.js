@@ -9,4 +9,9 @@ async function connect() {
         
         // If Connedted, enable swap button
     }
-}        }
+        else { 
+            document.getElementById("login_button").innerHTML = "Install Metamask"
+        }
+    
+}
+document.getElementById("login_button").onclick = connect
