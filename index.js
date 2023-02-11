@@ -9,6 +9,7 @@ async function connect() {
         // Change the button when connected
         document.getElementById("login_button").innerHTML = "Connected"
         // If Connedted, enable swap button
+        document.getElementById("swap_button").disabled = false
     }
         else { 
             document.getElementById("login_button").innerHTML = "Install Metamask"
