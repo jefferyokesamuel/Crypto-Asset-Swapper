@@ -7,5 +7,6 @@ async function connect() {
             console.log(err)
         }
         
+        // If Connedted, enable swap button
     }
 }        }
