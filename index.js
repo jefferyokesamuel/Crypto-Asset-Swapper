@@ -23,5 +23,3 @@ document.getElementById("from_token_select").onclick = openModal
 function openModal() {
     document.getElementById("token_modal").style.display = "block"
 }
-
-document.getElementById("login_button").onclick = connect
