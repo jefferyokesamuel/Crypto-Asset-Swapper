@@ -56,6 +56,9 @@ async function listAvailableTokens(){
       let div = document.createElement("div");
       div.className = "token_row";
       let html = `
+      <img class="token_list_img" src="${tokens[i].logoURI}">
+        <span class="token_list_text">${tokens[i].symbol}</span>
+        `;
       div.innerHTML = html;
       parent.appendChild(div);
     }
