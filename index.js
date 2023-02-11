@@ -57,3 +57,6 @@ async function listAvailableTokens(){
       div.className = "token_row";
       let html = `
       div.innerHTML = html;
+      parent.appendChild(div);
+    }
+  }
