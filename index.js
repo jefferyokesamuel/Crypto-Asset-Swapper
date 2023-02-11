@@ -50,3 +50,4 @@ async function listAvailableTokens(){
     console.log("tokens:", tokens);
       div.className = "token_row";
       let html = `
+      div.innerHTML = html;
