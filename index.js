@@ -28,6 +28,8 @@ document.getElementById("modal_close").onclick = closeModal;
 function  closeModal() {
     document.getElementById("token_modal").style.display = "none";
 }
+
+async function init() {
     console.log("Initializing")
     let response = await fetch("https://tokens.coingecko.com/uniswap/all.json")
     let tokenList = response.json()
