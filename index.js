@@ -21,8 +21,7 @@ document.getElementById("login_button").onclick = connect
 document.getElementById("from_token_select").onclick = openModal
 
 function openModal() {
-    document.getElementById("token_modal").style.display = "block"
-}    document.getElementById("token_modal").style.display = "none";
+    document.getElementById("token_select").style.display = "block"
 }
     document.getElementById("token_modal").style.display = "none";
 }
